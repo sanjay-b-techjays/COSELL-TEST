@@ -5,8 +5,8 @@ module.exports = {
   core: {
     builder: 'storybook-builder-vite',
   },
-  async viteFinal(config, { configType }) {
-    config.resolve.alias.src = './src';
-    return config;
-  },
+  // async viteFinal(config, { configType }) {
+  //   config.resolve.alias.src = './src';
+  //   return config;
+  // },
 };

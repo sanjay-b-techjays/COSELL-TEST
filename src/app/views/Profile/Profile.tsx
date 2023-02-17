@@ -1,8 +1,6 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
-import { useSelector } from 'react-redux';
 
-const Profile = () => {
-  return <div>Profile design goes here</div>;
-};
+const Profile = () => <div>Profile design goes here</div>;
 
 export default Profile;

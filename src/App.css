@@ -1,42 +1,23 @@
-.App {
-  text-align: center;
+:root {
+  --app--text--color: #323c47;
+  --app--primary--color: #4c70e3;
+  --app--text--field--color: #323c47;
+  --app--text--placeholder--color: #323c4726;
+  --app--border--color: #c4c4c4;
+  --app--placeholder: #323c47;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-theme='dark'] {
+  --app--text--color: #323c47;
+  --app--primary--color: #4c70e3;
+  --app--text--field--color: #323c47;
+  --app--text--placeholder--color: #323c4726;
+  --app--border--color: #ffffff;
+  --app--placeholder: rgb(218, 216, 216);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
-}
+/* .MuiSelect-select.MuiSelect-select {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+} */

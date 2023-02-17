@@ -1,0 +1,11 @@
+.forgetLink .MuiCheckbox-root {
+  color: #c4c4c4 !important;
+  padding: 0 !important;
+}
+.forgetLink .MuiFormControlLabel-label {
+  color: #707683 !important;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Inter';
+}

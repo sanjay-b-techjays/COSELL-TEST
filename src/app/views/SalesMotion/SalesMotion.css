@@ -1,0 +1,121 @@
+.salesMotion_main_div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.salesMotion_main_card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+}
+.salesMotion_title_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #192a3e;
+}
+.salesMotion_content_div {
+  display: flex;
+  flex-direction: column;
+  min-height: 75vh;
+  background-color: white;
+  width: 100%;
+}
+.salesMotionCards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: center;
+}
+.salesMotionEachCard {
+  position: relative;
+  width: 30%;
+  margin: 15px;
+}
+.salesMotionEachCardCheckbox {
+  position: absolute !important;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  padding: 2px !important;
+  color: #8d8a8a !important;
+  border-color: white !important;
+  background: white !important;
+  border-radius: 8px !important;
+}
+
+.generalFromMainDiv {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+}
+
+.salesMotionFormWrap .MuiFormControl-marginDense {
+  width: 100%;
+}
+.salesMotionTextArea textarea {
+  min-height: 70px;
+}
+.salesMotionMenu {
+  padding: 5px 10px !important;
+  display: block !important;
+}
+.disabledFile .MuiInputBase-input {
+  color: black !important;
+}
+.disabledFile .MuiInputBase-input.Mui-disabled {
+  color: black !important;
+}
+.salesMotionField .Mui-focused {
+  border: 2px solid #4c70e3;
+  border-radius: 4px;
+}
+.salesMotionField .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}
+.salesMotionFormField .Mui-focused {
+  border: 2px solid #4c70e3;
+  border-radius: 4px;
+}
+.salesMotionFormField .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.staticFromMainDiv {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+}
+.salesMotionCheckbox .MuiCheckbox-root {
+  padding: 0 !important;
+  margin-left: -2px !important;
+  color : #707683 !important;
+}
+.salesMotionCheckbox .Mui-checked{
+  color : #4c70e3 !important;
+}

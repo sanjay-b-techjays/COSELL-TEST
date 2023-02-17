@@ -1,0 +1,33 @@
+.termsBannerWrap {
+  background: #02273c;
+  display: flex;
+  justify-content: center;
+  color: white;
+  min-height: 100vh;
+}
+
+.bannerWrap {
+  max-width: 1000px;
+  margin: 50px auto;
+  position: relative;
+}
+.header {
+  font-weight: 600;
+  font-size: 22px;
+}
+.content {
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 28px;
+}
+
+.dotted1 {
+  position: absolute;
+  top: -45px;
+  left: -45px;
+}
+.dotted2 {
+  position: absolute;
+  bottom: -45px;
+  right: -45px;
+}

@@ -1,0 +1,339 @@
+.viewAssetsMainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.viewAssetsListPreviewContainer {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgba(51, 77, 110, 0.2);
+  margin: 0 4rem 2rem 2rem;
+}
+
+.viewAssetsHeaderContainer {
+  /* height: 5rem;
+  padding: 1em 3em 0em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px 48px 10px 2.5em;
+  height: 80px; */
+  height: 3rem;
+  padding: 1.5rem 1rem;
+}
+.leftHeadWrap {
+  display: flex;
+  /* height: 40px; */
+  align-items: center;
+}
+.logoImg {
+  margin: 0 20px;
+  width: 150px;
+}
+
+.logoImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.viewAssetsFileText {
+  font-family: 'Inter', sans-serifr;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #192a3e !important;
+  /* padding-bottom: 0.8em; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.viewAssetsContainer {
+  padding: 1.5em 0 0 1.5em;
+  border-left: 1px solid rgba(51, 77, 110, 0.2);
+  width: 100%;
+  height: fit-content;
+}
+
+.backLink {
+  margin-left: 3rem;
+  margin-top: 3.125rem;
+  color: rgba(107, 107, 107, 0.79);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 30px;
+  width: max-content;
+}
+
+.backLink:hover {
+  cursor: pointer;
+  color: rgba(107, 107, 107, 0.5);
+}
+
+.headerDiv {
+  float: right;
+  padding: 1em 3em 1em 1em;
+}
+
+.viewAssetsListContainer {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+  height: 100%;
+  margin-right: 15px;
+}
+
+.noAssetMsg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  width: 100%;
+}
+
+.viewAssetsListMenuContainer {
+  padding-top: 15px !important;
+  width: 5%;
+  padding: 0em 2em 0em 0em;
+}
+
+.resizedviewAssetsListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  height: 100%;
+  margin: 3rem 0rem 1rem 1rem;
+  transition: all 400ms cubic-bezier(0, 1.06, 0, 0.91);
+}
+
+.paddingContainer {
+  display: flex;
+}
+
+.resizerWrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: -20px;
+  margin-top: 5rem;
+  transition: all 400ms ease-in-out;
+}
+
+.resizerEnabledWrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-top: 5rem;
+  align-content: center;
+  flex-direction: column;
+  transition: all 400ms ease-in-out;
+}
+
+.resizeBtn {
+  background-color: #4c70e3;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 400ms ease-in-out;
+}
+
+.pointRight {
+  transform: rotate(180deg);
+}
+
+.resizeBtn {
+  background-color: #4c70e3;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.pointRight {
+  transform: rotate(180deg);
+}
+
+.viewAssetsPreviewContainer {
+  padding: 2rem 0rem;
+  background: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 0.5em;
+}
+
+.viewAssetsLogoContainer {
+  display: flex;
+}
+
+.viewAssetsLogo {
+  float: left;
+}
+
+.assetCollectionTitle {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.assetCollectionNoAsset {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1 rem;
+  margin-bottom: 2rem;
+}
+
+.previewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.imageAndContentContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 38%;
+  min-width: 160px;
+  height: 90px;
+  border-radius: 4px;
+}
+
+.companyLogo {
+  width: 142px;
+  height: 50px;
+  padding-right: 2em;
+  margin-left: 4em;
+}
+
+.partnerCompanyLogo {
+  width: 142px;
+  height: 40px;
+}
+
+.contentContainer {
+  display: flex;
+  width: 62%;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #323c47;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #707683;
+  font-size: 14px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: initial;
+  padding-right: 5px;
+}
+
+.imageAndAssetsMainContainer {
+  background: #fafafa;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.imageAndAssetsContentContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 25px;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.resizedImageAndAssetsContentContainer {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 25px;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.pfdImage {
+  padding: 25px;
+  margin-right: 25px;
+}
+
+.resizedPdfImage {
+  padding: 25px;
+}
+
+.resizedPdfImage {
+  padding: 25px;
+}
+
+.pdfTitle {
+  display: flex;
+  align-items: center;
+  color: #323c47;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.shareText {
+  padding: 0.2em 0.2em 0.2em 0.6em;
+  font-family: 'Inter', sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}

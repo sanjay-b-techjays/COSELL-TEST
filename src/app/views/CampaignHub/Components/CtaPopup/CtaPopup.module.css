@@ -1,0 +1,163 @@
+.previewCtaContainer {
+  position: fixed;
+  display: flex;
+  background: aliceblue;
+  /* inset: 90px 55px 80px auto; */
+  inset: auto 55px 80px auto;
+  z-index: 999;
+  background: white;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  max-width: 505px;
+  max-height: 80vh;
+  overflow-y: auto;
+  right: 1.5%;
+  bottom: calc(10% + 30px);
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.5s ease forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.fadeOut {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+.previewCta {
+  /* min-width: 20vw; */
+  /* max-width: 90%; */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  font-family: Inter;
+  flex-grow: 1;
+}
+
+.previewCtaImg {
+  object-fit: contain;
+  /* max-width: 265px;
+  max-height: 140px; */
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0px;
+}
+
+.ImgContainer {
+  position: relative;
+  width: 90%;
+}
+
+.shimmerContainer {
+  position: relative !important;
+  height: 300px;
+}
+
+.previewCtaheader {
+  font-weight: bold;
+  line-height: 1.2em;
+  font-size: clamp(1.3rem, 4vw, 1.5rem);
+  color: #424242;
+  text-align: center;
+  /* margin-top: auto; */
+}
+
+.previewCtaSubheader {
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  line-height: 30px;
+  text-align: left;
+  color: #424242;
+  margin-top: auto;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .previewCtaContainer {
+    /* max-width: 400px;
+    max-height: 600px;
+    inset: auto 2vw 75px 2vw;
+    margin: 0 auto; */
+    right: 15px;
+    bottom: 85px;
+  }
+
+  .previewCta {
+    max-width: none;
+  }
+
+  .previewCtaImg {
+    margin-top: 0;
+    /* max-width: 330px;
+    max-height: 200px; */
+  }
+
+  .previewCtaheader {
+    margin-top: 25px;
+  }
+
+  .popUpCtaButtonDiv {
+    margin-bottom: -1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .previewCtaContainer {
+    width: 90%;
+    /* max-width: 348px; */
+    /* max-height: 529px; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .previewCta {
+    padding: 1.2rem 1.2rem 0rem 1.2rem;
+  }
+
+  .previewCtaheader,
+  .previewCtaSubheader {
+    line-height: 24px;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .shimmerContainer {
+    height: 200px;
+  }
+
+  .shimmer {
+    height: 200px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

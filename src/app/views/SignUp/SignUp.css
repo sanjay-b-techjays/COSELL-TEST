@@ -1,0 +1,25 @@
+.termsWrap .MuiCheckbox-root {
+  color: #c4c4c4 !important;
+  padding: 0 !important;
+}
+.termsWrap .MuiFormControlLabel-label {
+  color: #707683 !important;
+  padding-left: 10px;
+  font-size: 14px;
+  /* font-weight: 500; */
+  font-family: 'Inter';
+}
+.sendSignUpBtn {
+  background: #4c70e3 !important;
+}
+.select_field .MuiInput-root {
+  width: 100% !important;
+  border: 1.5px solid var(--app--border--color);
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px !important;
+}
+.select_field .Muifocused .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff !important;
+}

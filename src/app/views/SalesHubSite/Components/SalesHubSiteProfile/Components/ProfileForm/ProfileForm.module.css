@@ -1,0 +1,102 @@
+.profileInfoField {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707683;
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+.semiField {
+  float: left;
+  width: 50%;
+}
+.userInformationWrap {
+  margin: 10px 20px 80px 20px;
+}
+.deletePWLabel {
+  text-align: left;
+}
+.deleteProfileWrapper .accInfoBtnWrap {
+  width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deleteProfileBtnWrap {
+  display: flex;
+  justify-content: center;
+}
+/* .select_field {
+  border: 1px solid #c1c4c7 !important;
+  border-radius: 4px;
+  margin-top: 10px;
+} */
+.labelField {
+  padding-top: 12px;
+}
+.profileField {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profileImg {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.changeImgIcon:hover {
+  cursor: pointer;
+  background: rgba(50, 60, 71, 0.1);
+}
+.changePwLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 10px;
+  margin: 15px;
+}
+.changeImageLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 10px;
+  margin: 0 10px !important;
+}
+
+.accInfoBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0 35px;
+  position: absolute;
+  bottom: 0;
+}
+.myAccWrap {
+  padding-bottom: 120px;
+}
+
+.accInfoFom {
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.bottomLayer {
+  position: fixed;
+  bottom: 0;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: #fafafa;
+}
+.mailDisabled {
+  color: #8f8c8c !important;
+}

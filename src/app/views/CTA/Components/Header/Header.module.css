@@ -1,0 +1,74 @@
+.ctaImgContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ctaImgContainer2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ctaImgContainer img:first-child {
+  margin-left: 0;
+}
+.ctaImgContainer img:last-child {
+  margin-right: 0;
+}
+.CtaLogoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+  width: 150px;
+  max-height: 80px;
+}
+.viewAssetsLogoContainer {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+.companyLogo {
+  width: 140px;
+  height: 30px;
+  margin-right: 1.5rem;
+  object-fit: contain;
+}
+@media screen and (max-width: 700px) {
+  .viewAssetsLogoContainer {
+    justify-content: space-between;
+  }
+  .companyLogo {
+    width: 30%;
+    height: 30px;
+    object-fit: contain;
+  }
+  .ctaImgContainer {
+    width: 100%;
+    justify-content: space-between;
+    max-height: 200px;
+  }
+  .ctaImgContainer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .CtaLogoImg {
+    width: auto;
+    height: 30px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 990px) and (min-width: 600px) {
+  .CtaLogoImg {
+    width: 110px !important;
+    height: 40px !important;
+  }
+  .ctaImgContainer {
+    justify-content: space-between !important;
+    width: 60% !important;
+    align-items: center !important;
+  }
+}

@@ -1,0 +1,103 @@
+.general {
+  display: flex;
+}
+.manage_solution_narrative_form {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #323c47;
+  padding-bottom: 15px;
+}
+.manage_solution_narrative_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  padding: 25px 25px 25px 0px;
+}
+.manage_solution_narrative_titleName {
+  padding: 25px;
+}
+.manage_solution_narrative_mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  min-height: 85vh;
+}
+.manage_solution_narrative_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 100px);
+  margin-bottom: 150px;
+}
+.manage_solution_narrative_button_container {
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  background: #fbfbfb;
+  /* margin-top: 40px; */
+  position: fixed;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+}
+.solTable table {
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+}
+.solTable table thead th {
+  padding: 10px;
+  text-align: center;
+}
+.solTable table tbody td {
+  /* padding: 10px; */
+  /* text-align: center; */
+  color: #323c47 !important;
+  padding: 6px !important;
+}
+.solTable table tbody th {
+  padding: 0;
+  color: #323c47 !important;
+}
+.solTable table tbody th:nth-child(1) {
+  padding: 0px 0px 0px 15px;
+  color: #323c47 !important;
+}
+
+.customBox svg {
+  color: #4c70e3 !important;
+}
+
+.tagChip {
+  background: #f4f4f4;
+  border: 1px solid #323c47;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 5px 5px 0;
+  max-width: 150px !important;
+  padding: 5px 10px;
+}
+/* .searchBtn {
+  margin: 0 20px;
+} */
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 175px;
+}
+.paginationWrap {
+  padding: 20px 0;
+}

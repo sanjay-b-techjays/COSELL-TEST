@@ -1,0 +1,122 @@
+.campaignHubCardMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 5px 50px rgba(38, 45, 118, 0.1);
+  border-radius: 20px;
+  transition: all 500ms ease-in-out;
+  /* margin: 10px; */
+}
+
+.campaignHubCardImgDiv {
+  height: auto;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.campaignHubCardImg {
+  height: 265px;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  transition: all 500ms ease-in-out;
+}
+.campaignHubCardTitleDivWrap {
+  padding-bottom: 45px;
+}
+.campaignHubCardMainContentsDiv {
+  height: inherit;
+  width: 100%;
+  /* padding: 0px 10px 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.campaignHubCardTitleDiv {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(1.25em, 2.5vw, 1.5em);
+  line-height: 24px;
+  word-break: break-word;
+  text-align: center;
+  color: #192a3e;
+  padding: 20px 20px 5px;
+}
+
+.campaignHubCardContentDiv {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.56rem;
+  letter-spacing: 0.01em;
+  /* text-align: center; */
+  color: #323c47;
+  padding: 10px 20px;
+  word-break: break-word;
+}
+
+.campaignHubCardLink {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4c70e3;
+  position: absolute;
+  bottom: 21px;
+}
+
+.campaignHubCardLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .campaignHubCardMainContentsDiv {
+    height: 250px !important;
+    padding: 0px 10px 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .campaignHubCardMainDiv {
+    height: 516px;
+    width: 95vw;
+    max-width: 360px;
+    min-height: 100%;
+  }
+
+  .campaignHubCardTitleDiv {
+    padding: 25px 15px 0px 15px;
+  }
+  .campaignHubCardMainContentsDiv {
+    height: 315px;
+  }
+  .campaignHubCardTitleDivWrap {
+    padding-bottom: 21px;
+  }
+  .campaignHubCardImg {
+    height: 202px;
+    width: 95vw;
+    max-width: 360px;
+  }
+  .campaignHubCardLink {
+    bottom: 22px;
+  }
+  .campaignHubCardContentDiv {
+    line-height: 25px;
+    text-align: left;
+    padding: 25px 15px;
+  }
+}

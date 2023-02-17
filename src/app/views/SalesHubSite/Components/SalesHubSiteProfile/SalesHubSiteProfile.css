@@ -1,0 +1,47 @@
+.userMenu > .MuiPaper-rounded {
+  left: unset !important;
+  /* right: 20px;
+  top: 10px !important; */
+  right: 80px;
+  top: 22px !important;
+  min-width: 160px !important;
+}
+.headerWithMenu {
+  position: relative;
+}
+.userMenu li {
+  padding: 8px 35px 8px 15px;
+  color: #192a3e !important;
+  /* font-size: 12px; confirm wt ajay bro*/
+  font-weight: 500;
+  font-family: 'Inter';
+}
+.userMenu .MuiList-padding {
+  padding: 0px !important;
+}
+.headerWithMenu .userMenu {
+  position: absolute !important;
+}
+.salesRepEmailField > .MuiFormControl-marginDense {
+  background-color: #c4c4c480 !important;
+}
+.salesRepEmailField .Mui-disabled {
+  opacity: 0.95 !important;
+}
+.select_field .MuiInput-root {
+  width: 100% !important;
+  border: 1.5px solid var(--app--border--color);
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px !important;
+}
+
+.select_field .Mui-focused {
+  border: 2px solid #4c70e3;
+  border-radius: 4px;
+}
+
+.select_field .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}

@@ -1,0 +1,177 @@
+/* [data-theme='dark'] {
+  --bg-color: #27293d;
+  --text-color: #fff;
+  --text-color--table: #323c47;
+  --table-bg: #27293d;
+}
+
+[data-theme='dark-text'] {
+  --title-color: #323c47;
+} */
+
+.headBg {
+  /* background-image: url('https://d1wjau4dvmc4kc.cloudfront.net/media/public/assets/files/file_189.jfif'); */
+  /* min-height: 550px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center; */
+  position: relative;
+  /* margin-top: 32px; */
+}
+
+.headBg .headBgImg {
+  width: 100%;
+  max-height: 80vh;
+}
+.ImgContainer {
+  width: 100%;
+  max-height: 80vh;
+}
+.bannerTxtWrap {
+  position: absolute;
+  width: calc(100vw - 10% - 17px);
+  color: var(--title-color);
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bannerWrap {
+  width: 100%;
+}
+.headerTextWrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerTextContainer {
+  width: 60%;
+}
+.headerCompanyLogoWrap {
+  width: 27%;
+  /* min-height: 50px; */
+}
+.headerCompanyLogoWrap img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: baseline;
+  width: 300px;
+}
+.srHeaderText {
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 3em; */
+  font-size: clamp(1.875em, 5vw, 2.625rem);
+  line-height: 60px;
+}
+.srSubHeaderText {
+  padding-top: 3%;
+  font-size: clamp(1.125em, 2vw, 1.5em);
+  line-height: 40px;
+}
+.bannerTxtWrap h1 {
+  font-size: 2.625rem;
+  word-break: break-word;
+}
+.bannerTxtWrap p {
+  font-size: 1.5rem;
+  word-break: break-word;
+}
+.hidden {
+  display: none;
+}
+.FadeOut {
+  opacity: 0;
+  transition: all 3s ease;
+}
+.shimmer {
+  background-color: aliceblue;
+  position: absolute;
+  height: 50px;
+  width: 150px;
+  /* box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.1); */
+  animation: GlowIn 1s infinite forwards;
+}
+
+.ZeroOpacity {
+  visibility: hidden;
+}
+@keyframes GlowIn {
+  0% {
+    background-color: aliceblue;
+  }
+  50% {
+    background-color: rgb(230, 243, 255);
+  }
+  100% {
+    background-color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .headBg {
+    display: flex;
+    justify-content: center;
+  }
+  .headBg .headBgImg {
+    height: 600px;
+    max-height: none;
+  }
+  .headerTextContainer {
+    width: auto;
+  }
+  .bannerTxtWrap {
+    flex-direction: column;
+    width: 98%;
+    padding: 0;
+    left: auto;
+  }
+  .headerTextWrap {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+  }
+  .srHeaderText {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .srSubHeaderText {
+    padding-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  .headerCompanyLogoWrap {
+    width: auto;
+    margin-top: 1.5em;
+  }
+  .headerCompanyLogoWrap img {
+    width: 150px;
+    height: 100px;
+  }
+  .headerCompanyLogoWrap .companyLogo {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 1130px) and (min-width: 900px) {
+  .srHeaderText {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .srSubHeaderText {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

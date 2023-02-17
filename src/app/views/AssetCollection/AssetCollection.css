@@ -1,0 +1,14 @@
+.disabledFile .MuiInputBase-input {
+  color: black !important;
+}
+.disabledFile .MuiInputBase-input.Mui-disabled {
+  color: black !important;
+}
+
+.tagsAssetCollectField .MuiFormHelperText-contained {
+  margin: 0 !important;
+  padding-top: 5px;
+  font-size: 12px;
+  color: #707683 !important;
+  font-family: inherit;
+}

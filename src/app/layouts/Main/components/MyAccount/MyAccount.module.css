@@ -1,0 +1,83 @@
+.accInfoField {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707683;
+  font-size: 14px;
+}
+.semiField {
+  float: left;
+  width: 50%;
+}
+.labelField {
+  padding-top: 12px;
+}
+.profileImg {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+.changePwLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 10px;
+  margin: 15px;
+}
+.changeImageLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 10px;
+  margin: 0 10px !important;
+}
+.profile_thumbnailImage {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.profileInfoField {
+  align-items: center;
+}
+
+.profileField {
+  display: flex;
+  align-items: center;
+  /* gap: 0.5rem; */
+  height: 100%;
+}
+.accInfoBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0 35px;
+  position: absolute;
+  bottom: 0;
+}
+.myAccWrap {
+  padding-bottom: 120px;
+}
+
+.accInfoFom {
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.bottomLayer {
+  position: fixed;
+  bottom: 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: var(--bottomlayer--bg--color);
+  padding: 40px 0;
+}
+.mailDisabled {
+  color: #8f8c8c !important;
+}

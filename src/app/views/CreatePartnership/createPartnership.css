@@ -1,0 +1,282 @@
+.create-partnership-main-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Inter', sans-serif;
+  padding-top: 25px;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.create-partnership-info-title {
+  margin-top: 35px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 63px;
+  color: #192a3e;
+}
+.domainWrap {
+  display: flex;
+  align-items: center;
+}
+.partnerDomainEndPoint {
+  position: absolute;
+  right: -120px;
+  top: 10px;
+}
+.domainEndPointWrap {
+  position: relative;
+}
+.whitelistDominWrap .Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #c4c4c4 !important;
+}
+.whitelistDominWrap:focus {
+  border-color: #4c70e3 !important;
+}
+.whitelistDominWrap .Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #4c70e3 !important;
+}
+.whitelistDominWrap .MuiFormHelperText-root.Mui-error {
+  color: red !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  font-family: 'Inter' !important;
+  padding: 5px 0;
+}
+.create-partnership-info-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-partnership-info-field {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 25px;
+  color: #707683;
+  font-size: 14px;
+}
+.create-partnership-info-field .create-partnership-label {
+  margin-top: 12px;
+}
+.create-partnership-info-field .create-partnership-whitelisted-label {
+  margin-top: 20px;
+}
+.company-info-field .create-partnership-label {
+  margin-top: 12px;
+}
+
+.create-partnership-info-button-container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: 35px 0px 20px 0px;
+  height: 42px;
+}
+
+.tagInput input {
+  padding: 0 !important;
+  height: 21px !important;
+  font-size: 14px;
+}
+.tagInput > div {
+  flex-wrap: wrap !important;
+  padding: 10px !important;
+}
+.textAreaInput textarea {
+  min-height: 80px !important;
+}
+
+.company-info-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-info-form-column1 {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.company-info-form-column2 {
+  width: 40%;
+  margin-right: 5%;
+}
+.company-info-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.company-info-field {
+  display: flex;
+  width: 46%;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 25px;
+  color: #707683;
+  font-size: 14px;
+}
+.company-info-main-column-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.company-logo-field {
+  height: 30%;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+.company-logo-field .company-logo-label {
+  margin-top: 1rem;
+}
+.company-logo-field .company-thumbnailImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.position-relative {
+  position: relative;
+}
+
+.company-thumbnailImage {
+  width: 80px !important;
+  height: 100px;
+  object-fit: contain;
+}
+
+.partner-company-thumbnailImage {
+  object-fit: contain;
+}
+/* 
+.create-partnership-info-field-subdomain {
+  max-width: 45%;
+}
+
+.create-partnership-info-field-policy-url {
+  max-width: 40%;
+}
+
+.create-partnership-info-field-siteterms-url {
+  max-width: 39%;
+}
+
+.create-partnership-info-field-cookie-policy {
+  max-width: 40%;
+}
+
+.materialui-field .MuiFormControl-fullWidth {
+  width: 150%;
+} */
+
+.create-partnership-info-field .MuiFormControl-marginDense {
+  min-width: 250px;
+  /* margin-left: 25px; */
+}
+
+.company-info-field .MuiFormControl-marginDense {
+  min-width: 270px;
+}
+
+.create-partnership-info-field .MuiFormControl-marginDense {
+  min-width: 270px;
+}
+
+.create-partnership-info-field .MuiFormHelperText-contained {
+  margin-left: 0px;
+}
+.wsTagsWrap .MuiFormControl-root {
+  width: 100% !important;
+}
+
+.MuiInputBase-adornedStart,
+.MuiOutlinedInput-adornedStart {
+  min-height: 100px;
+}
+
+.wsTagsWrap .MuiInputBase-input,
+.MuiOutlinedInput-input,
+.MuiOutlinedInput-inputAdornedStart {
+  color: var(--app--placeholder) !important;
+  font-size: 14px;
+}
+/* WAMuiChipInput-input-13 WAMuiChipInput-outlined-15 MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart */
+
+.createPartnerShipSelect {
+  min-width: 270px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 0 10px;
+  height: 40px;
+  outline: none;
+  color: #707683;
+}
+
+.createPartnerShipSelect .MuiSelect-select.MuiSelect-select {
+  padding-right: 24px;
+  background: transparent !important;
+  color: black !important;
+  padding-left: 14px;
+}
+
+.createPartnerShipSelect .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none !important;
+}
+
+.company-info-field-address-field
+  .MuiOutlinedInput-multiline.MuiOutlinedInput-marginDense {
+  min-height: 85px !important;
+}
+
+.create-partnership-info-field
+  .WAMuiChipInput-inputRoot-10.WAMuiChipInput-outlined-13 {
+  min-width: 270px;
+  max-width: 270px;
+}
+.ImgErrMsg {
+  max-width: 250px;
+}
+
+.favIocnField {
+  display: flex;
+}
+
+.favIconImgDiv {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  top: -40px;
+  left: 300px;
+}
+
+.favIconImg {
+  width: 50px;
+  height: 40px;
+}
+
+.closeicon {
+  position: absolute;
+  bottom: 60px;
+  left: 35px;
+  /* width: '15px',
+  height: '15px',
+  borderRadius: '50%',
+  border: '8px solid white',
+  // backgroundColor: 'white',
+  padding: '2px', */
+}

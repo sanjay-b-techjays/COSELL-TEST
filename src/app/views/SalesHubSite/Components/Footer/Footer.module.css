@@ -1,0 +1,90 @@
+:root {
+  --footer-bg-color: #f5f5f5;
+  --text-color: #323c47;
+}
+
+[data-theme='dark'] {
+  --footer-bg-color: #27293d;
+  --text-color: #fff;
+}
+
+.footWrap {
+  display: flex;
+  /* justify-content: space-between;
+  align-items: end; */
+  background: var(--footer-bg-color);
+  padding: 25px 40px 35px 40px;
+}
+.footerDataWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.addressTxt {
+  width: 75%;
+  /* padding: 20px 0; */
+  /* color: var(--text-color); */
+  color: #323c47;
+  font-weight: 500;
+  font-size: 18px;
+}
+.reservedTxt {
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 35%;
+  font-style: normal;
+  font-size: 0.875em;
+  word-break: break-word;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: flex-end;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+}
+.footerImgWrap {
+  width: 15%;
+}
+.footerImgWrap img {
+  width: 100%;
+}
+.addressTxt div {
+  padding-bottom: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  margin: 0 20px;
+}
+.addressTxt div:first-child {
+  padding-bottom: 15px;
+}
+.addressTxt div:last-child {
+  padding: 15px 0 0;
+  margin: 0;
+  font-size: 14px;
+}
+.linksWrap {
+  display: flex;
+  /* padding: 10px 0; */
+  /* flex-direction: column-reverse; */
+}
+.disabledLinksWrap {
+  display: flex;
+  /* padding: 10px 0; */
+}
+.disabledLinksWrap a {
+  pointer-events: none;
+  cursor: default;
+}
+.link {
+  margin: 0 20px;
+  /* color: var(--text-color); */
+  font-weight: 500;
+  color: #323c47;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}

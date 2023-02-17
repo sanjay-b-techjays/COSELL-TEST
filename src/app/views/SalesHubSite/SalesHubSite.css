@@ -1,0 +1,190 @@
+.salesHub_main_div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.salesHub_main_card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+}
+.salesHub_title_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  font-size: 20px;
+  font-weight: 500;
+  color: #192a3e;
+}
+
+.salesHub_info_title_div {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background: #fafafa;
+  font-weight: 500;
+  color: #707683;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.salesHub_info_title_div:hover {
+  background-color: #e5e5e5;
+}
+.salesHub_info_div {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  padding: 5px 10px;
+}
+/* .salesHub_each_info_div {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  margin: 5px 0px;
+} */
+.salesHub_each_info_fullWidth_div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+/* .salesHub_textfield_div .MuiFormControl-marginDense {
+  min-width: 315px;
+}
+.salesHub_textfield_div {
+  margin-right: 75px;
+  margin-left: 25px;
+} */
+.salesHub_assetCollection_div {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 5px 0px 10px 0px;
+  color: #323c47;
+  font-size: 16px;
+}
+.salesHub_assetCollection_button_div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+.salesHub_assetCollection_card_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* @media screen and (max-width: 1390px) {
+  .salesHub_info_div {
+    flex-direction: column;
+  }
+  .salesHub_each_info_div {
+    width: 100%;
+  }
+} */
+
+.disabledFile .MuiInputBase-input {
+  color: black !important;
+}
+.disabledFile .MuiInputBase-input.Mui-disabled {
+  color: black !important;
+}
+
+.salesHub_centerDropDown {
+  margin-right: 75px;
+  margin-left: 25px;
+  border: 1.5px solid rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+  background: white !important;
+}
+
+.disabledFile .MuiInputBase-input {
+  color: black !important;
+}
+.disabledFile .MuiInputBase-input.Mui-disabled {
+  color: black !important;
+}
+
+.textArea textarea {
+  min-height: 90px !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none !important;
+}
+.MuiInput-underline:before {
+  border-bottom: none !important;
+}
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+
+.salesHubAccSelect .MuiInput-root {
+  width: 100% !important;
+  border: 1.5px solid var(--app--border--color);
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px !important;
+}
+.salesHubAccSelect .Mui-focused {
+  /* width: 100% !important; */
+  border: 2px solid #4c70e3;
+  border-radius: 4px;
+  height: 40px;
+  padding: 10px;
+}
+.salesHubAccSelect .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.salesHubAccSelectName {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.salesHubAccMiniSelect .MuiInput-root {
+  width: 100% !important;
+  border: 1.5px solid var(--app--border--color);
+  border-radius: 5px;
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 3px;
+  /* margin-left: 5px; */
+}
+/* .salesHubAccMiniSelect .MuiFormControl-marginDense {
+  max-width: 60px !important;
+  width: 60px !important;
+  margin: 0 5px !important;
+} */
+
+.MuiFormControl-marginDense {
+  margin-bottom: 0px !important;
+}

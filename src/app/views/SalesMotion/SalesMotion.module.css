@@ -1,0 +1,379 @@
+.salesMotionFieldWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.salesMotionWrap {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.salesMotionDropDownButton {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background: #fafafa;
+  font-weight: 500;
+  color: #707683;
+  border-radius: 5px;
+  padding: 10px 5px 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.salesMotionDropDownButton:hover {
+  background-color: #e5e5e5;
+}
+
+/* .salesMotionFormWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+  align-items: flex-start;
+}  */
+
+.salesMotionLabel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+.salesMotionTBLabel {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  margin-top: 20px;
+}
+
+.createSalesMotion_main_div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+  background-color: white;
+}
+
+.salesMotionCreationBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px 0 35px;
+  position: absolute;
+  bottom: 0;
+}
+.bottomLayer {
+  position: fixed;
+  bottom: 0;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: #fbfbfb;
+}
+.salesMotionForm {
+  margin-bottom: 150px;
+  width: 100%;
+}
+.salesMotionFormWrap {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  font-family: 'Inter', sans-serif !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+  background-color: white;
+}
+.salesMotionField {
+  width: 50%;
+}
+
+.solTable table {
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+}
+.solTable table thead th {
+  padding: 10px;
+  text-align: center;
+}
+.solTable table tbody td {
+  /* padding: 10px; */
+  /* text-align: center; */
+  color: #323c47 !important;
+  padding: 6px !important;
+}
+.solTable table tbody th {
+  padding: 0;
+  color: #323c47 !important;
+}
+
+.customBox svg {
+  color: #4c70e3 !important;
+}
+
+.tagChip {
+  background: #f4f4f4;
+  border: 1px solid #323c47;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 5px 5px 0;
+  max-width: 150px !important;
+  padding: 5px 10px;
+}
+/* .searchBtn {
+  margin: 0 20px;
+} */
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 175px;
+}
+.paginationWrap {
+  padding: 20px 0;
+}
+.paginationWrap ul {
+  display: flex;
+  justify-content: center;
+}
+
+.salesMotionSelect {
+  width: 100%;
+  /* margin: 15px 0; */
+}
+.salesMotionSelect {
+  border: 1px solid #c1c4c7;
+  padding: 0 10px;
+  height: 40px;
+  /* color: #c1c4c7 !important; */
+  border-radius: 4px;
+}
+.domainWrap {
+  display: flex;
+  align-items: center;
+}
+.domainEndPoint {
+  padding: 5px;
+}
+.manage_solution_narratives_nocontent_container {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 17px;
+  color: #707683;
+  padding-bottom: 1.5em;
+}
+.thumbnailImg {
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.tagInput input {
+  padding: 10.5px 0 !important;
+  font-size: 14px;
+}
+
+.tagInput > div {
+  flex-wrap: wrap !important;
+  padding: 10px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.previewImageHelper {
+  max-width: 300px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.5em 0;
+}
+
+.marginPaddingZero {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.salesMotionCheckbox {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0% !important;
+  margin-top: 8px;
+}
+.salesMotionFormField {
+  width: 100%;
+}
+.staticFormTable {
+  padding-left: 14px !important;
+  border-spacing: 0 !important;
+ }
+.staticFormTable :hover {
+  background-color: unset;
+  border-spacing: unset !important;
+  border-color: unset !important;
+}
+.staticFormTable :hover {
+ background-color: unset;
+}
+
+.staticFormTable td {
+  padding: 10px;
+  border-top: 1px solid  #C4C4C4 !important;
+  border-spacing: none !important
+}
+.staticFormTable td:hover {
+  border-top:  1px solid  #C4C4C4 !important;
+}
+
+.formInputwrap {
+  border: 1px solid  #C4C4C4 !important;
+}
+
+.staticFormTable tr:nth-child(1) {
+  padding: 10px;
+  width: 0%;
+}
+
+.staticFormTable thead {
+  color: #323c47 !important;
+  padding: 10px;
+}
+
+.staticFormTable tr td:nth-child(1) {
+  position: relative;
+  width: 0%;
+}
+
+.staticFormTable thead {
+  background: #FBFBFB !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  justify-content:space-between;
+  align-items: center;
+  width: 100% !important;
+  height : 41px !important;
+  margin-left: 15px !important;
+}
+
+.staticFormTable th {
+  border-collapse: unset !important;
+}
+
+.staticFormHeader{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683 !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.staticFormTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 15px !important;
+}
+
+.staticFormCheckBox {
+  color: #707683 ;
+  padding: 0% !important;
+}
+
+.staticFormTableWrap {
+  position: relative;
+  margin: 5% 0% 5% 0%;
+}
+
+.staticFormText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #323C47;
+}
+
+.formFieldinput{
+  border-radius: 4px;
+  border: 1px solid  #C4C4C4 !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0% !important;
+  color: #323C47;
+}
+.formFieldinputDisabled{
+  border-radius: 4px;
+  border: 1px solid  #C4C4C4 !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0% !important;
+  color: #323C4780;
+}
+
+.formFieldinput:hover{
+  border: 1px solid black;
+}
+.formFieldinput::placeholder{
+  color: #323C4780;
+}
+.formFieldinputDisabled::placeholder{
+  color: #323C4780;
+}
+.formFieldinputDisabled:hover{
+  border: none;
+}
+
+.formFieldinput:focus{
+  outline: none;
+  border: 2px solid #4c70e3 !important;
+  padding: 4px;
+}
+.staticFormTableRow {
+  padding: 4px;
+  border: 1px solid  #C4C4C4 !important;
+}

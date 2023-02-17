@@ -1,0 +1,103 @@
+.searchbar {
+  width: 45%;
+  height: 30px;
+  background: #c2cfe014;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 5px 5px 35px;
+  color: #323c47;
+  float: left;
+  font-size: 12px;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+.closeWrap {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.accountTable td {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 10% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  text-align: left;
+}
+
+.accountTable tr:nth-child(1) {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 10% !important;
+  /* background-color: #fafafa !important; */
+}
+
+.accountTable th {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 10% !important;
+}
+
+.accountTable tr th:nth-child(1) {
+  max-width: 2% !important;
+  width: 2% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  position: relative;
+  text-align: left;
+}
+
+.accountTable tr td:nth-child(1) {
+  max-width: 2% !important;
+  width: 2% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  position: relative;
+  text-align: left;
+}
+
+.accountTable tr td:nth-child(6) {
+  padding-left: 8px;
+}
+
+.accountCheckBox svg {
+  color: #707683 !important;
+}
+.accountCheckBox .MuiCheckbox-root {
+  padding: 0 !important;
+  /* margin-top: 10px; */
+}
+.dealAmtCheckBox > span {
+  padding: 0 !important;
+}
+
+.accountTable thead {
+  background: #fafafa !important;
+}
+
+.accountTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 15px !important;
+}
+
+.accountTable tr td,
+.accountTable tr th {
+  text-align: left;
+  font-size: 14px;
+  color: #707683;
+}
+/* 
+.accTeamTable {
+  padding-bottom: 90px;
+} */
+
+.noResults {
+  border: none !important;
+  text-align: center !important;
+  color: grey;
+  font-size: 16px !important;
+  padding: 10px;
+}

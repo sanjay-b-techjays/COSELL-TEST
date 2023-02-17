@@ -1,0 +1,17 @@
+.userAMMenu > .MuiPaper-rounded {
+  left: unset !important;
+  right: 45px;
+  top: 10px !important;
+}
+.toolbarWrapWithMenu {
+  position: relative;
+}
+.toolbarWrapWithMenu .userAMMenu {
+  position: absolute !important;
+}
+.amMailField > .MuiFormControl-marginDense {
+  background-color: #c4c4c480 !important;
+}
+.amMailField .Mui-disabled {
+  opacity: 0.95 !important;
+}

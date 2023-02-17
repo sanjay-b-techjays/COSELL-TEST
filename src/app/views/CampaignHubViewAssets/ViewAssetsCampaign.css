@@ -1,0 +1,100 @@
+.pg-viewer-wrapper {
+  overflow-y: unset !important;
+  width: 100%;
+}
+
+.treeViewItem .MuiTreeItem-content {
+  padding: 0 !important;
+}
+
+/* Photo File width height change */
+.photo-viewer-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.photo-viewer-container > img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Excel file width height change */
+.pg-viewer > .spreadsheet-viewer {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 60vh;
+}
+
+.spreadsheet-viewer > .react-grid-Container {
+  width: 100% !important;
+  height: 95% !important;
+}
+
+.spreadsheet-viewer > .react-grid-Container > .react-grid-Main {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.spreadsheet-viewer
+  > .react-grid-Container
+  > .react-grid-Main
+  > .react-grid-Grid {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-grid-Viewport {
+  width: 100% !important;
+  height: 94% !important;
+}
+
+.react-grid-Viewport > .react-grid-Canvas {
+  width: 100% !important;
+  height: 96% !important;
+}
+
+/* Video file width height change */
+.pg-viewer-wrapper .video-container > video {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* PDF file width height change */
+.pg-viewer > .pdf-viewer-container > .pdf-viewer {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* PDF file width height change */
+.pg-viewer-wrapper #docx {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.pg-viewer-wrapper
+  > .pg-viewer
+  > .pdf-viewer-container
+  > .pdf-viewer
+  > .pdf-canvas {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.rpv-default-layout__body > .rpv-default-layout__toolbar {
+  z-index: auto !important;
+}
+
+@media screen and (max-width: 500px) {
+  .spreadsheet-viewer > .react-grid-Container {
+    height: 50vh !important;
+  }
+
+  .pg-viewer-wrapper {
+    width: 95vw;
+  }
+
+  .pg-viewer-wrapper .pg-viewer {
+    width: 95vw;
+  }
+}

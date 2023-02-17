@@ -1,0 +1,15 @@
+.loaderWrap {
+  position: fixed;
+  top: 47%;
+  left: 47%;
+  transform: translate(-47%, -47%);
+}
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #0808084a;
+  z-index: 10;
+}

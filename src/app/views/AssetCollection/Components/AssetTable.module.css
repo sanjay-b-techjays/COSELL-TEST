@@ -1,0 +1,153 @@
+.assetHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assetTitle {
+  color: #323c47;
+  font-weight: 500;
+  font-size: 20px;
+}
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tagChip {
+  background: #f4f4f4;
+  border: 1px solid #323c47;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 5px 5px 0;
+  max-width: 150px !important;
+  padding: 5px 10px;
+}
+.noResults {
+  border: none !important;
+  text-align: center !important;
+  color: grey !important;
+  font-size: 16px !important;
+  padding: 10px !important;
+}
+
+.flexBackground {
+  background-color: white;
+  height: 100vh;
+}
+
+.assetHeadWrap {
+  padding: 30px;
+}
+
+.filterWrap {
+  display: flex;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.centerDropDown {
+  margin: 0 20px;
+}
+
+.searchbar {
+  width: 200px;
+  height: 30px;
+  background: #fafafa;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 5px 5px 35px;
+  color: #707683;
+  border-radius: 4px;
+}
+
+.docTypeCell {
+  display: flex;
+  align-items: center;
+}
+.docTypeCell img {
+  margin-right: 10px;
+}
+.assetTable td {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 20% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+.assetTable tr:nth-child(1) {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 20% !important;
+  /* background-color: #fafafa !important; */
+}
+.assetTable th {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 20% !important;
+}
+
+.assetTable tr td:nth-child(1) {
+  max-width: 5% !important;
+  /* width: 100px !important; */
+  padding-left: 10px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.assetTable tr td:nth-child(2) {
+  max-width: 1% !important;
+  padding-right: 25px;
+}
+
+.assetTable thead {
+  background: #fafafa !important;
+}
+.assetTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 14px !important;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+.inputWrap {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  color: #707683;
+  left: 5px;
+  top: 10px;
+}
+
+.assetBtn {
+  min-width: 160px !important;
+  background: #4c70e3 !important;
+  border-radius: 4px;
+  color: white !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.assetCheckBox svg {
+  color: #4c70e3 !important;
+}
+.checkBoxTd {
+  width: 50px !important;
+}
+
+.plusWrap {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid white;
+}

@@ -1,0 +1,810 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #323c47;
+  --table-bg: #f5f5f5;
+  --sidbar-bg: #fafafa;
+  --dropDown--bg--color: #fafafa;
+  --bottomlayer--bg--color: #fbfbfb;
+}
+
+[data-theme='dark'] {
+  --bg-color: #27293d;
+  --text-color: #fff;
+  --table-bg: #27293d;
+  --sidbar-bg: #27293d;
+  --dropDown--bg--color: #34385e;
+  --bottomlayer--bg--color: #27293d;
+}
+
+.formContainer {
+  background: var(--bg-color);
+}
+
+.accInfoField {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707683;
+  font-size: 14px;
+}
+
+.semiField {
+  float: left;
+  width: 50%;
+}
+
+.labelField {
+  padding-top: 15px;
+}
+
+/* .changePwLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+} */
+.salesMenuWrap {
+  position: relative;
+}
+.salesMenu {
+  background: #ffffff;
+  border: 0.5px solid rgba(194, 207, 224, 0.4) !important;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06) !important;
+  border-radius: 4px !important;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  /* top: 50px; */
+  top: 45px;
+}
+.salesMenuWrap li {
+  padding: 10px;
+  color: #192a3e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.accInfoBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 25px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.myAccWrap {
+  padding-bottom: 120px;
+}
+
+.accInfoFom {
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.manage_solution_narrative_mainContent {
+  margin: 25px 0 55px 0;
+}
+.salesHubAccFormWrap {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 24px; */
+  letter-spacing: 0.01em;
+  color: #323c47;
+  background-color: var(--bg-color);
+  margin: 0 12px;
+}
+
+.salesHubAccForm {
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.salesHubEditAccForm {
+  /* margin-bottom: 100px; */
+  width: 100%;
+}
+
+.salesHubEditAccForm .salesHubAccFieldWrap {
+  width: 48%;
+}
+
+.salesHubEditAccForm .salesHubAccFormWrap {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomLayer {
+  position: fixed !important;
+  bottom: 0 !important;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: var(--bottomlayer--bg--color);
+  margin-left: -12px !important;
+}
+
+.bottomLayerAccount {
+  /* position: absolute;
+  top: 5px;
+  right: 20px;
+  bottom: unset; */
+  position: sticky;
+  top: 0;
+  margin-top: -145px;
+  display: flex;
+  float: right;
+  z-index: 2;
+  background: white;
+  padding: 20px 0 0;
+}
+
+.UserInfoBottomLayer {
+  position: fixed !important;
+  bottom: 0 !important;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: var(--bottomlayer--bg--color);
+}
+.salesHubSectionFormWrap {
+  margin: 0;
+  padding: 30px 0 60px 0;
+}
+.salesHubAccFormMarginBottom {
+  margin-bottom: 30px;
+}
+
+.salesHubAccDropDown {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background: var(--dropDown--bg--color);
+  font-weight: 500;
+  color: #707683;
+  border-radius: 5px;
+  padding: 10px 15px 10px 25px;
+  height: 25px;
+  align-items: center;
+}
+
+.salesHubAccDropDown:hover {
+  background-color: #e5e5e5;
+}
+
+.salesHubAccDropDown.salesHubAccDropDownGap {
+  margin-bottom: 20px;
+}
+
+.salesHubAccDownArrowImg {
+  width: 12px;
+  height: 8px;
+}
+.tagsTxtArea {
+  padding-bottom: 15px;
+  min-height: 85px;
+}
+.domainNameField {
+  min-height: 90px;
+}
+.salesHubAccFieldTxtArea {
+  min-height: 140px;
+  padding-bottom: 30px;
+}
+.salesHubEditAccForm .domainNameField {
+  min-height: 120px;
+}
+
+.salesHubAccFieldWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 0;
+  /* margin-top: 25px; */
+  min-height: 80px;
+}
+
+.salesHubEditAccFieldWrap {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.salesHubAccLabel {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.salesHubAccTBLabel {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  margin-top: 20px;
+}
+
+.salesHubAccField {
+  width: 45%;
+  /* display: flex; */
+  align-items: flex-start;
+}
+
+.upload_img_div {
+  margin-left: 18%;
+}
+
+.chooseTxt {
+  color: #707683;
+  text-align: center;
+}
+
+.salesHubAccMiniField {
+  width: 100%;
+  display: flex;
+}
+
+.thumbnailImg {
+  width: 100px !important;
+  border-radius: 5px;
+}
+
+.solTable table {
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+}
+
+.solTable table thead th {
+  padding: 10px;
+  text-align: left !important;
+  color: #707683 !important;
+  font-weight: 500 !important;
+}
+
+.solTable table tbody td {
+  /* padding: 10px; */
+  /* text-align: center; */
+  color: #323c47 !important;
+  padding: 6px !important;
+}
+
+.solTable table tbody th {
+  padding: 0;
+  color: #323c47 !important;
+}
+
+.tagChip {
+  background: #f4f4f4;
+  border: 1px solid #323c47;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 5px 5px 0;
+  max-width: 150px !important;
+  padding: 2px 5px;
+}
+
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 175px;
+}
+
+.bannerCard {
+  width: 28%;
+  border-radius: 20px 20px 20px 20px !important;
+  color: var(--text-color);
+  /* box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08) !important; */
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
+.bannerCard img {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardContainer {
+  height: 160px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  /* font-family: 'Inter', sans-serif !important; */
+}
+
+.bannerCard h4 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.loadLink {
+  color: #4c70e3 !important;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  bottom: 3px;
+  /* font-family: 'Inter', sans-serif !important; */
+}
+
+.cardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.teamCadenceinput::-webkit-outer-spin-button,
+.teamCadenceinput::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.teamCadenceinput {
+  -moz-appearance: textfield !important;
+}
+
+.inputHelper {
+  color: #323c4780 !important;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.accountTable td {
+  color: #323c47 !important;
+  padding: 10px !important;
+  width: 10% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.accountTable tr:nth-child(1) {
+  color: #323c47 !important;
+  padding: 5px;
+  width: 10% !important;
+  /* background-color: #fafafa !important; */
+}
+
+.accountTable th {
+  color: #323c47 !important;
+  padding: 10px;
+  width: 10% !important;
+}
+
+.accountTable tr td:nth-child(1) {
+  max-width: 6% !important;
+  width: 6% !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  position: relative;
+  text-align: left;
+  padding: 10px;
+}
+
+.accountTable thead {
+  background: #fafafa !important;
+}
+
+.accountTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 15px !important;
+  height: 20px;
+  padding: 10px;
+}
+.analyticsTable thead {
+  background: #fafafa !important;
+}
+
+.analyticsTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 14px !important;
+  height: 20px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif !important;
+}
+.analyticsTable tbody td {
+  vertical-align: top;
+  color: #323c47 !important;
+  font-weight: 400;
+  font-size: 14px !important;
+  height: 20px;
+  padding: 10px;
+  border: 0;
+  font-family: 'Inter', sans-serif !important;
+}
+.analyticsAssetTable tbody td {
+  color: #323c47 !important;
+  font-weight: 400;
+  font-size: 14px !important;
+  height: 20px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif !important;
+}
+.analyticsAssetTable thead {
+  background: #fafafa !important;
+}
+.analyticsAssetTable thead {
+  background: #fafafa !important;
+}
+.analyticsAssetTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 14px !important;
+  height: 20px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.borderTop {
+  border-top: 1px solid #8080806b !important;
+}
+
+.accountCheckBox svg {
+  color: #707683 !important;
+}
+.accountCheckBox span {
+  padding: 0 !important;
+}
+.analyticsAssetTable span {
+  padding: 0 !important;
+}
+
+.emailavatar {
+  background-color: #e96011 !important;
+  height: 30px !important;
+  width: 30px !important;
+  margin: 0 10px 0 0;
+  font-size: 16px !important;
+}
+.accTeamTableWrap {
+  position: relative;
+}
+.accTeamTable {
+  padding-bottom: 90px;
+}
+.salesOppTable {
+  padding-bottom: 15px;
+}
+
+.paginationWrap {
+  position: absolute;
+  bottom: 0;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.paginationWrap nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationWrap button .Mui-selected {
+  background-color: rgb(148 169 238) !important;
+  color: white !important;
+}
+.avatarCell {
+  display: flex;
+  align-items: center;
+}
+
+.mailRefreshImg {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  margin: 0 10px;
+}
+
+.manageAccLabel {
+  color: #323c47;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.manageAccountWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+  align-items: center;
+}
+
+.userInformationWrap {
+  width: auto;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+.userInformationFieldWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 75px;
+}
+
+.userInfoForm {
+  position: relative;
+}
+.salesInfoForm {
+  position: relative;
+}
+.cadenceWrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.noResults {
+  border: none !important;
+  text-align: center !important;
+  color: grey;
+  font-size: 16px !important;
+}
+
+.fullField {
+  width: 100% !important;
+}
+
+.searchbar {
+  width: 45%;
+  height: 30px;
+  background: #c2cfe014;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 5px 5px 35px;
+  color: #707683;
+  float: left;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+.closeWrap {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.tagInput input {
+  padding: 10.5px 0 !important;
+  font-size: 14px;
+}
+
+.tagInput > div {
+  flex-wrap: wrap !important;
+  padding: 10px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.previewImageHelper {
+  max-width: 300px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.5em 0;
+}
+
+.contentEngCardWrap {
+  background: rgba(144, 160, 183, 0.2);
+  border-radius: 10px;
+  padding: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contentEngCard {
+  width: 25%;
+}
+.contentEngCardContent {
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+.contentEngCardContentTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(50, 60, 71, 0.5);
+  font-family: 'Inter', sans-serif !important;
+}
+.alignTop {
+  vertical-align: top !important;
+}
+.contentEngCardContentValue {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(50, 60, 71, 0.75);
+  text-align: right;
+  padding-top: 20px;
+  font-family: 'Inter', sans-serif !important;
+}
+.salesHubAccCheckbox {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0% !important;
+  margin-top: 8px;
+}
+
+.staticFormSectionTableWrap {
+  width: 100% !important;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.salesHubAccFormField {
+  width: 100%;
+}
+.staticFormTable {
+  padding-left: 24px !important;
+  border-spacing: 0 !important;
+ }
+.staticFormTable :hover {
+  background-color: unset;
+  border-spacing: unset !important;
+  border-color: unset !important;
+}
+.staticFormTable :hover {
+  background-color: unset;
+}
+
+.staticFormTable td {
+  padding: 10px;
+  border-top: 1px solid #c4c4c4 !important;
+  border-spacing: none !important;
+}
+.staticFormTable td:hover {
+  border-top: 1px solid #c4c4c4 !important;
+}
+
+.staticFormTable tr:nth-child(1) {
+  padding: 10px;
+  width: 0%;
+}
+
+.staticFormTable th {
+  color: #323c47 !important;
+  padding: 10px;
+}
+
+.staticFormTable tr td:nth-child(1) {
+  position: relative;
+  width: 0%;
+}
+
+.staticFormTable thead {
+  background: #fbfbfb !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  height: 41px !important;
+  margin-left: 15px !important;
+}
+
+.staticFormTable th {
+  border-collapse: unset !important;
+}
+
+.staticFormHeader {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683 !important;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.staticFormTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 15px !important;
+}
+
+.staticFormCheckBox {
+  color: #707683;
+  padding: 0% !important;
+}
+
+.staticFormTableWrap {
+  position: relative;
+  margin: 0% 0% 5% 0%;
+  width: 100% !important;
+}
+
+.staticFormText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #323c47;
+}
+
+.formFieldinput {
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0% !important;
+  color: #323c47;
+}
+
+.formFieldinputDisabled{
+  border-radius: 4px;
+  border: 1px solid  #C4C4C4 !important;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0% !important;
+  color: #323C4780;
+}
+
+.formFieldinput:hover{
+  border: 1px solid black;
+}
+.formFieldinput::placeholder{
+  color: #323C4780;
+}
+.formFieldinputDisabled::placeholder{
+  color: #323C4780;
+}
+.formFieldinputDisabled:hover{
+  border: none ;
+}
+
+.formFieldinput:focus {
+  outline: none;
+  border: 2px solid #4c70e3 !important;
+  padding: 4px;
+}
+.formFieldinput::placeholder{
+  color: #323C4780;
+}

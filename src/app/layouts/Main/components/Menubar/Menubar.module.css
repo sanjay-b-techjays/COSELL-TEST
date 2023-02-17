@@ -1,0 +1,252 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+.contentTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.list {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Dropdown */
+
+.dropdown {
+  position: relative;
+  /* margin-bottom: 50px; */
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 10%;
+  top: 27.5px;
+  color: #818c99;
+  transition: all 0.15s ease-in-out;
+  transform: rotate(180deg);
+}
+
+.arrowIconActive {
+  transform: rotate(0deg);
+}
+
+.dropdownMenu {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+  transform: translateY(-10px);
+  pointer-events: none;
+  text-align: center;
+  height: 20px;
+  overflow: hidden;
+}
+
+.dropdownMenuActive {
+  position: relative;
+  opacity: 1;
+  left: 5%;
+  width: 90%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: opacity 150ms ease-out, transform 150ms ease-out;
+  transform: translateY(0px);
+  text-align: center;
+  line-height: 32px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.dropdownMenuActiveContainer {
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  cursor: pointer;
+}
+
+tr:hover {
+  background: #dddee1;
+  cursor: pointer;
+}
+
+.dropdownBtn {
+  width: 90%;
+  /* height: 40px; */
+  margin-left: 5%;
+  margin-top: 20px;
+  border: none;
+  background: #90a0b71a;
+  text-align: left;
+  cursor: pointer;
+  padding: 10px 40px 10px 10px;
+}
+.dropdownBtnLabel {
+  color: #192a3e80;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  word-break: break-word;
+}
+.dropdownBtnLabelSelected {
+  color: #192a3e80;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+  word-break: break-word;
+}
+.clicked {
+  color: #4c70e3;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500;
+}
+
+/* 
+.dropdownMenuList {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 14px;
+  line-height: 2px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.dropdownMenuList:hover {
+  background: #dddee1;
+  cursor: pointer;
+}
+
+.dropdownMenuList>div{
+  width: 30%;
+}
+
+.dropdownMenuList>p, .dropdownMenuList>img {
+  margin-right: 15%;
+}
+
+.dropdownMenuList > img {
+  cursor: pointer;
+} */
+
+/* modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100vw;
+  /* Full width */
+  height: 100vh;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modalActive {
+  position: fixed;
+  z-index: 1;
+  /* Sit on top */
+  padding-top: calc(50vh - 120px);
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100vw;
+  /* Full width */
+  height: 100vh;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modalcontent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.modalcontent .modalcontenttitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.modalcontent .modalSecContenttitle {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #707683;
+  margin-bottom: 30px;
+}
+
+.btnPrimary,
+.btnOutlined {
+  font-size: 14px;
+  padding: 12px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+.btnOutlined {
+  background-color: transparent;
+  color: #3764be;
+  border: 2px solid #3764be;
+}
+
+.btnPrimary {
+  background-color: #3764be;
+  color: white;
+  border: 2px solid #3764be;
+}
+
+.addBtn {
+  width: 100%;
+  background: #d5cdcd !important;
+  text-align: center;
+  position: sticky !important;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+}

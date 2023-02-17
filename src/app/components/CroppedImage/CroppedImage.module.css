@@ -1,0 +1,78 @@
+.cropBody {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  inset: 0 0 0 0;
+}
+.cropContainer {
+  background-color: #fff;
+  width: 800px;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-shadow: 3px 3px 16px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.headerContainer {
+  display: flex;
+  padding: 1rem 1.5rem 1rem 3rem;
+  font-size: 1.2rem;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+.headerContainer p {
+  margin: 0;
+  margin-top: 0.2rem;
+}
+.closeIcon {
+  margin-left: auto;
+  font-size: 2rem !important;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cropImageMainContainer {
+  padding: 2rem 5rem;
+  background-color: black;
+}
+.cropImageContainer {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background: rgba(0, 0, 0, 1);
+}
+.cropBody .cropContainer .cropImageContainer img {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.filterContainer {
+  display: flex;
+  align-items: center;
+  padding: 2em 5em;
+  gap: 2rem;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.filterContainer p {
+  margin: 0;
+}
+
+.cropButtonContainer {
+  padding: 1em 3em;
+}
+
+.filterBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  background-color: white;
+  padding: 2em 1.5em;
+}

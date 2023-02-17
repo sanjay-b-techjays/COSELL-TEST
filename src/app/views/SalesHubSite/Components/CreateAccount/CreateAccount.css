@@ -1,0 +1,107 @@
+.salesHubAccFieldCheckBox .MuiCheckbox-root {
+  padding: 0 !important;
+  margin-top: 10px;
+}
+.salesHubAccFieldCheckBox {
+  display: flex;
+}
+.cadenceWrapper .MuiCheckbox-root {
+  padding: 0 !important;
+  margin-top: 10px;
+}
+
+.salesHubAccFieldCheckBox .MuiCheckbox-root {
+  padding: 0 !important;
+  margin-top: 10px;
+}
+.cadenceInput .MuiOutlinedInput-inputMarginDense {
+  font-size: 14px;
+  margin-top: 2px;
+  padding: 10px 5px !important;
+}
+.cadenceInput
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #4c70e3;
+  border-width: 2px;
+}
+
+.cadenceInput {
+  width: 40% !important;
+  display: block;
+  margin: 4px;
+}
+/* .candenceInputErrorMsg {
+  margin-left: -25px !important;
+} */
+.cadenceInput .MuiFormControl-marginDense {
+  margin-top: 0 !important;
+}
+.salesHubAccMiniSelect {
+  width: 90% !important;
+}
+.cadenceFrequencywrap .Mui-focused {
+  border-color: #4c70e3;
+  border-width: 2px;
+}
+.cadenceFrequencywrap .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}
+.salesHubAccFieldCheckBox label {
+  width: 10% !important;
+}
+.datePickerField input {
+  padding: 10.5px 14px;
+}
+.datePickerField .MuiFormControl-root {
+  /* margin-top: 8px; */
+  width: 100%;
+}
+.datePickerField
+  .MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23);
+}
+.dealAmountField .MuiInputBase-adornedStart,
+.MuiOutlinedInput-adornedStart {
+  min-height: 45px !important;
+}
+.salesOppTable tr:last-child {
+  border: none !important;
+}
+
+.candenceFrequency {
+  width: 90%;
+}
+.MuiFormControl-root.MuiTextField-root.MuiFormControl-marginDense {
+  margin-top: 0px;
+}
+.salesHubAccFormField .Mui-focused {
+  border: 2px solid #4c70e3;
+  border-radius: 4px;
+}
+.salesHubAccFormField .MuiSelect-select:focus {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.staticFromMainDiv {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+}
+.salesHubAccCheckbox .MuiCheckbox-root {
+  padding: 0 !important;
+  margin-left: -2px !important;
+  color : #707683 !important;
+}
+.salesHubAccCheckbox .Mui-checked {
+  color : #4c70e3 !important;
+}
+.salesHubAccSectionFieldWrap {
+  width: 100% !important;
+}

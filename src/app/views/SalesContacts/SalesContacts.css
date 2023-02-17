@@ -1,0 +1,9 @@
+.paginationWrap nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationWrap button .Mui-selected {
+  background-color: rgb(148 169 238) !important;
+  color: white !important;
+}

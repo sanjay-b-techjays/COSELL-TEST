@@ -1,0 +1,102 @@
+.accInfoField {
+  width: 91%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707683;
+  font-size: 14px;
+  min-height: 70px;
+}
+.tagsFieldWrapper {
+  padding-bottom: 30px;
+}
+.semiField {
+  float: left;
+  width: 50%;
+}
+.semiField > div {
+  /* margin-bottom: 15px !important; */
+  width: 100%;
+}
+
+.labelField {
+  margin-top: 12px;
+}
+.changePwLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.accInfoBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px 0 35px;
+  position: absolute;
+  bottom: 0;
+}
+.myAccWrap {
+  padding-bottom: 120px;
+}
+.previewWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 80px; */
+}
+.assetForm {
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.accInfoForm {
+  width: 100%;
+  display: flex;
+  padding: 25px 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomLayer {
+  position: fixed;
+  bottom: 0;
+  padding: 40px 0;
+  /* width: calc(100vw - 60% - 60px); */
+  width: calc(100vw - 58% - 17px);
+  background-color: #fbfbfb;
+}
+.uploadAssetSelect {
+  width: 100%;
+  /* margin: 15px 0; */
+}
+.uploadAssetSelect div {
+  border: 1px solid #c1c4c7 !important;
+  padding: 10px;
+  /* color: #c1c4c7 !important; */
+  border-radius: 4px;
+}
+.subTitle {
+  padding: 10px 25px;
+  background: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  color: #707683;
+}
+.tagInput input {
+  padding: 0 !important;
+  height: 21px !important;
+  font-size: 14px;
+}
+.tagInput > div {
+  flex-wrap: wrap !important;
+  padding: 10px !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border: none !important;
+}

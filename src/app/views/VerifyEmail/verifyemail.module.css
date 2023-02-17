@@ -1,0 +1,75 @@
+.flexBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+.container {
+  margin: auto;
+  width: 100%;
+  padding: 0px 20%;
+  color: #02273c;
+  text-align: center;
+}
+.mailSentTxt {
+  line-height: 1.5em;
+}
+.link button {
+  color: #4c70e3 !important ;
+  background: transparent !important;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: none !important;
+  padding: 0;
+  min-width: fit-content;
+  font-size: 14px;
+  /* font-weight: bold; */
+  font-family: 'Inter';
+}
+.mailReceiveTxt {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 25px;
+}
+.mailReceiveTxt span {
+  padding-left: 5px;
+}
+.verifyTitle {
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 30px;
+  color: #323c47;
+}
+.mailSent {
+  padding: 30px 0;
+}
+.mail {
+  color: #4c70e3 !important ;
+  font-weight: 500;
+}
+.spam {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+}
+.verifyTxt {
+  font-size: 14px;
+  font-weight: 400;
+  color: #707683;
+}
+.signIn {
+  text-align: center;
+  padding: 10px;
+  color: #707683;
+  font-size: 14px;
+}
+.signIn button {
+  color: #4c70e3 !important ;
+  background: transparent !important;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: none !important;
+  font-family: 'Inter';
+}

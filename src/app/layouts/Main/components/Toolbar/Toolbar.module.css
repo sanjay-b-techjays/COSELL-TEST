@@ -1,0 +1,94 @@
+.toolbar {
+  position: absolute;
+  width: 80%;
+  height: 70px;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  margin: 0;
+  /* padding: 10px 15px; */
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.searchbar {
+  width: 200px;
+  height: 30px;
+  background: #c2cfe014;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 5px 5px 35px;
+  color: #707683;
+}
+
+.searchbar:focus {
+  outline: none;
+}
+
+.inputWrap {
+  position: relative;
+  margin-left: 25px;
+}
+
+.searchIcon {
+  position: absolute;
+  color: #707683;
+  left: 5px;
+  top: 10px;
+}
+
+.toolbar img {
+  width: 34px;
+  border-radius: 50%;
+  margin-right: 30px;
+  height: 34px;
+}
+.userName {
+  padding: 0 10px;
+  font-weight: 500;
+}
+.userWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userAMMenu {
+  margin-top: 50px;
+  min-width: 150px !important;
+}
+.userAMMenu li {
+  padding: 8px 35px 8px 15px;
+  font-weight: 500;
+  font-family: 'Inter';
+}
+
+.userAMMenu ul {
+  min-width: 120px !important;
+  width: 100% !important;
+  padding: 0 !important;
+  background: #ffffff;
+  border: 0.5px solid rgba(194, 207, 224, 0.4) !important;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.toolbarWithMenu {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  right: 0px;
+  top: 0px;
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.toolbarWithMenu img {
+  width: 34px;
+  border-radius: 50%;
+  margin-right: 30px;
+  height: 34px;
+}

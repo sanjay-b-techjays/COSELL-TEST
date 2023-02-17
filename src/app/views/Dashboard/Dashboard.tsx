@@ -1,13 +1,15 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable linebreak-style */
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { selectUser } from '../Login/LoginSlice';
+import { selectUserData } from '../SignIn/SignInSlice';
 
 const Dashboard = () => {
-  const user = useSelector(selectUser);
-  console.log({ user });
+  const userData = useSelector(selectUserData);
   return (
     <div>
-      Welcome {user.email}
+      Welcome {userData.email}
       <br />
       Dashboard design goes here
     </div>

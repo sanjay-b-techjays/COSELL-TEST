@@ -1,0 +1,430 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #323c47;
+  --table-bg: #f5f5f5;
+  --sidbar-bg: #fafafa;
+  --dropDown--bg--color: #fafafa;
+  --bottomlayer--bg--color: #fbfbfb;
+}
+
+[data-theme='dark'] {
+  --bg-color: #27293d;
+  --text-color: #fff;
+  --table-bg: #27293d;
+  --sidbar-bg: #27293d;
+  --dropDown--bg--color: #34385e;
+  --bottomlayer--bg--color: #27293d;
+}
+
+.formContainer {
+  background: var(--bg-color);
+}
+
+.accInfoField {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #707683;
+  font-size: 14px;
+}
+
+.semiField {
+  float: left;
+  width: 50%;
+}
+
+.labelField {
+  padding-top: 15px;
+}
+
+/* .changePwLink {
+  color: #4c70e3;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+} */
+
+.accInfoBtnWrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 25px 0;
+  position: absolute;
+  bottom: 0;
+}
+
+.myAccWrap {
+  padding-bottom: 120px;
+}
+
+.accInfoFom {
+  width: 100%;
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.salesHubAccFormWrap {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: Inter, sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #323c47;
+  background-color: var(--bg-color);
+}
+
+.salesHubAccForm {
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.salesHubEditAccForm {
+  /* margin-bottom: 100px; */
+  width: 100%;
+}
+
+.salesHubEditAccForm .salesHubAccFieldWrap {
+  width: 48%;
+}
+
+.salesHubEditAccForm .salesHubAccFormWrap {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomLayer {
+  position: fixed !important;
+  bottom: 0 !important;
+  width: calc(100vw - 58% - 17px);
+  background-color: var(--bottomlayer--bg--color);
+  margin-left: -20px !important;
+  padding: 40px 0;
+}
+
+.bottomLayerAccount {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  bottom: unset;
+}
+
+.UserInfoBottomLayer {
+  position: fixed !important;
+  bottom: 0 !important;
+  padding: 40px 0;
+  width: calc(100vw - 58% - 17px);
+  background-color: var(--bottomlayer--bg--color);
+}
+
+.salesHubAccDropDown {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background: var(--dropDown--bg--color);
+  font-weight: 500;
+  color: #707683;
+  border-radius: 5px;
+  padding: 10px 5px 10px 20px;
+  margin: 10px 0;
+}
+
+.salesHubAccDropDown:hover {
+  background-color: #e5e5e5;
+}
+
+.salesHubAccDropDown button {
+  padding: 8px !important;
+}
+
+.salesHubAccFieldWrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.salesHubEditAccFieldWrap {
+  display: flex;
+  flex-direction: row;
+  width: 48%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+.salesHubAccLabel {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  margin-top: 12px;
+}
+
+.salesHubAccField {
+  width: 50%;
+  /* display: flex; */
+  align-items: flex-start;
+}
+
+.upload_img_div {
+  margin-left: 18%;
+}
+
+.chooseTxt {
+  color: #707683;
+  text-align: center;
+}
+
+.salesHubAccMiniField {
+  width: 100%;
+  display: flex;
+}
+
+.thumbnailImg {
+  margin-top: 15px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.tagChip {
+  background: #f4f4f4;
+  border: 1px solid #323c47;
+  box-sizing: border-box;
+  border-radius: 20px;
+  color: #323c47;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 5px 5px 0;
+  max-width: 150px !important;
+  padding: 2px 5px;
+}
+
+.chipsWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 175px;
+}
+
+.bannerCard {
+  width: 28%;
+  border-radius: 20px 20px 20px 20px !important;
+  color: var(--text-color);
+  /* box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08) !important; */
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+  margin: 20px;
+  padding-bottom: 10px;
+}
+
+.bannerCard img {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardContainer {
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bannerCard h4 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.loadLink {
+  color: #4c70e3 !important;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  bottom: 3px;
+}
+
+.cardWrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.teamCadenceinput::-webkit-outer-spin-button,
+.teamCadenceinput::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.teamCadenceinput {
+  -moz-appearance: textfield !important;
+}
+
+.inputHelper {
+  color: #323c4780 !important;
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.accountTable td {
+  color: #323c47 !important;
+  padding: 10px;
+  width: 20%;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.accountTable tr:nth-child(1) {
+  color: #323c47 !important;
+  padding: 10px;
+  width: 20%;
+  /* background-color: #fafafa !important; */
+}
+
+.accountTable th {
+  color: #323c47 !important;
+  padding: 10px;
+  width: 20%;
+}
+
+.accountTable tr td:nth-child(1) {
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  position: relative;
+  width: 20%;
+  padding-left: 20px;
+}
+
+.accountTable thead {
+  background: #fafafa !important;
+  pointer-events: none;
+  width: 20%;
+}
+
+.accountTable thead td {
+  color: #707683 !important;
+  font-weight: 500;
+  font-size: 15px !important;
+  width: 20%;
+}
+
+.accountCheckBox svg {
+  color: #707683 !important;
+}
+
+.emailavatar {
+  background-color: #e96011 !important;
+  height: 30px !important;
+  width: 30px !important;
+  margin: 0 10px 0 0;
+  font-size: 16px !important;
+}
+.accContactsTableWrap {
+  position: relative;
+}
+.accContactsTable {
+  padding-bottom: 90px;
+  min-height: 300px;
+}
+.paginationWrap {
+  position: absolute;
+  bottom: 0;
+  padding: 25px 0;
+  width: 95%;
+}
+
+.paginationWrap nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paginationWrap button .Mui-selected {
+  background-color: rgb(148 169 238) !important;
+  color: white !important;
+}
+.avatarCell {
+  display: flex;
+  align-items: center;
+}
+
+.mailRefreshImg {
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  margin: 0 10px;
+}
+
+.manageAccLabel {
+  color: #323c47;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.manageAccountWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.userInformationWrap {
+  width: auto;
+  padding: 20px;
+}
+
+.userInformationFieldWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.userInfoForm {
+  position: relative;
+}
+
+.noResults {
+  border: none !important;
+  text-align: center !important;
+  color: grey;
+  font-size: 16px !important;
+  padding: 10px;
+}
+
+.fullField {
+  width: 100% !important;
+}
+
+.fileIcon {
+  position: relative;
+}
+
+.btnAlign {
+  display: flex;
+  justify-content: right;
+}
+
+.assetAlign {
+  display: flex;
+}
+
+.assetTextAlign {
+  align-content: center;
+  padding: 5px;
+}

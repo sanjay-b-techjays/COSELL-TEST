@@ -1,0 +1,13 @@
+.chipWrap:nth-child(1) {
+  flex-wrap: wrap;
+}
+.chip {
+  border-radius: 4px;
+  border: 1px solid #323c47 !important;
+  background-color: #f4f4f4 !important;
+  margin: 0 5px 5px 0;
+  color: #323c47 !important;
+}
+.chip span {
+  max-width: 161px !important;
+}

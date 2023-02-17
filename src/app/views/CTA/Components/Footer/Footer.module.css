@@ -1,0 +1,123 @@
+.footerContainer {
+  margin: 0 35px;
+  border-top: 1px solid black;
+}
+.footerContentContainer {
+  display: grid;
+  margin: 50px 5px 0 5px;
+  padding-bottom: 100px;
+  grid-template-areas:
+    'logo address address address address'
+    'logo addressline addressline addressline addressline'
+    'logo urls urls copyrights copyrights';
+  column-gap: 25px;
+  row-gap: 15px;
+  grid-template-columns: 150px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr min-content;
+  color: var(--text-color);
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.imageContainer {
+  grid-area: logo;
+}
+.companyLogo {
+  height: 50px;
+  width: 150px;
+}
+
+.address {
+  grid-area: address;
+  margin: auto 0;
+  font-size: 18px;
+}
+.addressLine {
+  grid-area: addressline;
+  color: #192a3e;
+}
+.addressLine p {
+  margin: 0;
+  color: #192a3e;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 32px;
+}
+.urlContainer {
+  grid-area: urls;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: 14px;
+  height: min-content;
+}
+.urlContainer a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  height: min-content;
+}
+.copyrights {
+  grid-area: copyrights;
+  text-align: end;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .footerContainer {
+    margin: 0 24px;
+  }
+  .footerContentContainer {
+    margin: 0;
+    margin-top: 50px;
+    grid-template-areas:
+      'logo address'
+      'addressline addressline'
+      'urls urls'
+      'copyrights copyrights';
+    column-gap: 50px;
+    row-gap: 25px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr min-content min-content;
+  }
+}
+
+@media (max-width: 500px) {
+  .footerContainer {
+    background: #f5f5f5;
+    margin: 0;
+    border: none;
+  }
+  .footerContentContainer {
+    padding: 20px 15px 15px 15px;
+    margin-top: 0px;
+    grid-template-areas:
+      'logo logo'
+      'address address'
+      'addressline addressline'
+      'urls urls'
+      'copyrights copyrights';
+    column-gap: 50px;
+    row-gap: 15px;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 30px min-content 1fr min-content min-content;
+  }
+  .companyLogo {
+    height: 30px;
+    width: 100px;
+  }
+  .urlContainer {
+    gap: 25px;
+    font-size: 12px;
+  }
+  .urlContainer a.cookie {
+    display: none;
+  }
+  .addressLine p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .copyrights {
+    text-align: start;
+  }
+}

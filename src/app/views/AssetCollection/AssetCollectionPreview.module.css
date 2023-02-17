@@ -1,0 +1,83 @@
+.previewContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.imageAndContentContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 38%;
+  min-width: 160px;
+  height: 90px;
+  border-radius: 4px;
+}
+
+.contentContainer {
+  display: flex;
+  width: 62%;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #323c47;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #707683;
+  font-size: 14px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: initial;
+  padding-right: 5px;
+}
+
+.imageAndAssetsMainContainer {
+  /* background: #fafafa; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.imageAndAssetsContentContainer {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.pfdImage {
+  padding: 25px;
+  margin-right: 25px;
+}
+.pdfTitle {
+  display: flex;
+  align-items: center;
+  color: #323c47;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}

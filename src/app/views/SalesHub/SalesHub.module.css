@@ -1,0 +1,87 @@
+.dropdown {
+  position: relative;
+}
+.dropdownBtn {
+  width: 315px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #707683;
+  border: none;
+  background: #fff;
+  border-radius: 4px;
+  text-align: left;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 40px 10px 10px;
+  word-break: break-word;
+}
+.dropdownBtn svg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.dropdownBtn li {
+  min-height: 45px;
+}
+.arrowIcon {
+  position: absolute;
+  right: 10%;
+  top: 27.5px;
+  color: #818c99;
+  transition: all 0.15s ease-in-out;
+}
+.arrowIconActive {
+  transform: rotate(0deg);
+}
+.salesHub_floating_wrap {
+  position: sticky;
+  padding: 20px 5px;
+  top: 0px;
+  width: 100%;
+  background-color: #fefefe !important;
+  z-index: 2;
+}
+.placeholderTxt {
+  color: #b1b5b9e0 !important;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+.menuWrap {
+  position: absolute;
+  width: 315px;
+  z-index: 1;
+  background: white;
+  top: 40px;
+  padding: 5px 0;
+  color: grey;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.menuWrap li {
+  display: block;
+  padding: 10px;
+}
+.dropdownMenu {
+  display: none;
+}
+.paginationWrap nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.ImageErrorMsg {
+  width: 300px;
+}
+.previewImageHelper {
+  max-width: 300px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.5em 0;
+}
+.marginZero {
+  margin: 0 !important;
+}

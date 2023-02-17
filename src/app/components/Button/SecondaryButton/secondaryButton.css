@@ -1,0 +1,29 @@
+.cosell-secondary-button {
+  /* background-color: #4c70e3 !important; */
+  /* border-color: #4c70e3; */
+  color: #4c70e3 !important;
+  border-radius: 4px !important;
+  border: 1px solid #4c70e3 !important;
+  width: 160px !important;
+  height: 42px !important;
+  text-transform: none !important;
+}
+
+.cosell-secondary-button-disabled {
+  background-color: #e0e0e0 !important;
+  border-radius: 2px !important;
+}
+
+.cosell-secondary-button .MuiButton-label {
+  text-transform: none !important;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.2rem 0.4rem;
+  background-color: #4c70e3 !important;
+}

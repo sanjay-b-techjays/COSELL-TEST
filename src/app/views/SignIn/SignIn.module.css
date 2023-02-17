@@ -1,0 +1,83 @@
+.flexBackground {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; */
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+.container {
+  margin: auto;
+  /* width: 100%; */
+  padding: 0px 20%;
+  color: #02273c;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.rememberMeActive svg {
+  color: #4c70e3 !important ;
+}
+.container h2 {
+  color: #323c47 !important;
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.field {
+  /* margin-bottom: 15px; */
+  width: 100%;
+}
+.fieldWrap {
+  height: 100px;
+}
+.fieldAlignment {
+  display: flex !important;
+  align-items: stretch;
+}
+.forgetLink {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 30px;
+}
+.link label {
+  margin-left: -3px !important;
+}
+.error {
+  color: red !important;
+}
+.link a {
+  /* margin: 5% 0; */
+  color: #4c70e3 !important ;
+  background: transparent !important;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: none !important;
+  min-width: fit-content !important;
+  padding: 0;
+  font-weight: 500;
+  font-family: 'Inter';
+  font-size: 14px;
+  padding-left: 5px;
+}
+.signupBox {
+  padding: 10px;
+  color: #707683;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.signInButton {
+  background: #4c70e3 !important;
+  color: #ffffff !important;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  text-transform: none !important;
+  height: 45px;
+  margin: 30px 0 !important;
+}
